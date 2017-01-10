@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="roboVS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roboVS">
+				<Option output="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/roboVS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 roboVS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roboVS/fast">
+				<Option output="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/roboVS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 roboVS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/Driver_DBUS.c">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/Driver_DBUS.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/FreeRTOS.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/FreeRTOSConfig.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/OSinclude.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/core_cm4.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/core_cm4_simd.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/core_cmFunc.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/core_cmInstr.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/deprecated_definitions.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/event_groups.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/list.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/mpu_wrappers.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/portable.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/portmacro.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/projdefs.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/queue.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/semphr.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/stdint.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/stm32f4xx.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/system_stm32f4xx.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/task.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/timers.h">
+			<Option target="roboVS"/>
+		</Unit>
+		<Unit filename="/media/nao/KINGSTON/roboVS/roboVS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

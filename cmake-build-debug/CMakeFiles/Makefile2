@@ -45,54 +45,54 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/nao/下载/clion-2016.3.2/cliom/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/nao/下载/clion-2016.3.2/cliom/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nao/Downloads/code/RMinfantry
+CMAKE_SOURCE_DIR = /media/nao/KINGSTON/roboVS/roboVS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nao/Downloads/code/RMinfantry/cmake-build-debug
+CMAKE_BINARY_DIR = /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/RMinfantry.dir
+# Target rules for target CMakeFiles/roboVS.dir
 
 # All Build rule for target.
-CMakeFiles/RMinfantry.dir/all:
-	$(MAKE) -f CMakeFiles/RMinfantry.dir/build.make CMakeFiles/RMinfantry.dir/depend
-	$(MAKE) -f CMakeFiles/RMinfantry.dir/build.make CMakeFiles/RMinfantry.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target RMinfantry"
-.PHONY : CMakeFiles/RMinfantry.dir/all
+CMakeFiles/roboVS.dir/all:
+	$(MAKE) -f CMakeFiles/roboVS.dir/build.make CMakeFiles/roboVS.dir/depend
+	$(MAKE) -f CMakeFiles/roboVS.dir/build.make CMakeFiles/roboVS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target roboVS"
+.PHONY : CMakeFiles/roboVS.dir/all
 
 # Include target in all.
-all: CMakeFiles/RMinfantry.dir/all
+all: CMakeFiles/roboVS.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/RMinfantry.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles 83
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RMinfantry.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/RMinfantry.dir/rule
+CMakeFiles/roboVS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roboVS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/roboVS.dir/rule
 
 # Convenience name for target.
-RMinfantry: CMakeFiles/RMinfantry.dir/rule
+roboVS: CMakeFiles/roboVS.dir/rule
 
-.PHONY : RMinfantry
-
-# clean rule for target.
-CMakeFiles/RMinfantry.dir/clean:
-	$(MAKE) -f CMakeFiles/RMinfantry.dir/build.make CMakeFiles/RMinfantry.dir/clean
-.PHONY : CMakeFiles/RMinfantry.dir/clean
+.PHONY : roboVS
 
 # clean rule for target.
-clean: CMakeFiles/RMinfantry.dir/clean
+CMakeFiles/roboVS.dir/clean:
+	$(MAKE) -f CMakeFiles/roboVS.dir/build.make CMakeFiles/roboVS.dir/clean
+.PHONY : CMakeFiles/roboVS.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/roboVS.dir/clean
 
 .PHONY : clean
 
