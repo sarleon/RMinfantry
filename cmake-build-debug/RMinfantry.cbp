@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RMinfantry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RMinfantry">
+				<Option output="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/RMinfantry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 RMinfantry"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RMinfantry/fast">
+				<Option output="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/RMinfantry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nao/Downloads/code/RMinfantry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 RMinfantry/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/MDK/Infantry_HZW.uvguix.HZW">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/MDK/Infantry_HZW.uvoptx">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/MDK/Infantry_HZW.uvprojx">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/MDK/JLinkSettings.ini">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/README.md">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_CAN.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_DMA.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_GPIO.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_NVIC.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_SPI.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_TIM.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/inc/BSP_UART.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_CAN.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_DMA.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_GPIO.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_NVIC.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_SPI.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_TIM.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/bsp/src/BSP_UART.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/core_cm4.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/core_cm4_simd.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/core_cmFunc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/core_cmInstr.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/startup_stm32f40_41xxx.s">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/stm32f4xx.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/stm32f4xx_conf.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/system_stm32f4xx.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/core/system_stm32f4xx.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_Bell.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_Chassis.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_CloudMotor.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_Control.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_DBUS.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_ESP8266.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_FricMotor.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_Judge.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_PokeMotor.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_StatusMachine.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_Steering.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_SuperGyroscope.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_mpu9250.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/inc/Driver_vision.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_Bell.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_Chassis.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_CloudMotor.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_Control.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_DBUS.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_ESP8266.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_FricMotor.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_Judge.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_PokeMotor.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_StatusMachine.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_Steering.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_SuperGyroscope.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_mpu9250.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/driver/src/Driver_vision.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/keilkilll.bat">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/custom/mpu9250dmp.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/custom/mpu9250dmp.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/dmpKey.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/dmpmap.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/inv_mpu.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/inv_mpu.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/inv_mpu_dmp_motion_driver.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/eMPL/inv_mpu_dmp_motion_driver.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/FreeRTOS.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/FreeRTOSConfig.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/StackMacros.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/croutine.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/deprecated_definitions.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/event_groups.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/list.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/mpu_wrappers.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/portable.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/portmacro.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/projdefs.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/queue.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/semphr.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/task.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/inc/timers.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/croutine.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/event_groups.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/heap_2.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/list.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/port.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/queue.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/tasks.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/freertos/src/timers.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/misc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_adc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_can.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_crc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_cryp.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_dac.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_dbgmcu.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_dcmi.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_dma.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_dma2d.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_exti.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_flash.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_flash_ramfunc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_fmc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_fsmc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_gpio.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_hash.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_i2c.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_iwdg.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_ltdc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_pwr.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_rcc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_rng.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_rtc.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_sai.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_sdio.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_spi.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_syscfg.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_tim.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_usart.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/inc/stm32f4xx_wwdg.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/misc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_adc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_can.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_crc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_cryp.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_cryp_aes.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_cryp_des.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_cryp_tdes.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_dac.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_dbgmcu.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_dcmi.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_dma.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_dma2d.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_exti.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_flash.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_flash_ramfunc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_fmc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_fsmc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_gpio.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_hash.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_hash_md5.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_hash_sha1.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_i2c.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_iwdg.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_ltdc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_pwr.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_rcc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_rng.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_rtc.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_sai.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_sdio.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_spi.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_syscfg.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_tim.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_usart.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/lib/std/src/stm32f4xx_wwdg.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/oled/bsp_oled.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/oled/bsp_oled.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/oled/drv_gui.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/oled/drv_gui.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/system/StringDecoding/StringDecoding.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/system/StringDecoding/StringDecoding.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/system/SystemReset/SystemReset.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/system/SystemReset/SystemReset.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/system/sim_IIC/sim_IIC.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/system/sim_IIC/sim_IIC.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/inc/Task_Bell.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/inc/Task_CANSend.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/inc/Task_Control.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/inc/Task_ESP8266.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/inc/Task_Monitor.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/inc/Task_SysInitConfig.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/src/Task_Bell.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/src/Task_CANSend.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/src/Task_Control.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/src/Task_ESP8266.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/src/Task_Monitor.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/task/src/Task_SysInitConfig.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/CommonDataStructure.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/Config.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/Handler.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/OSinclude.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/main.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/main.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/stm32f4xx_it.c">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/user/stm32f4xx_it.h">
+			<Option target="RMinfantry"/>
+		</Unit>
+		<Unit filename="/Users/nao/Downloads/code/RMinfantry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

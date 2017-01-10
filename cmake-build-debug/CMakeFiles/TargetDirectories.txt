@@ -1,0 +1,3 @@
+/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles/RMinfantry.dir
