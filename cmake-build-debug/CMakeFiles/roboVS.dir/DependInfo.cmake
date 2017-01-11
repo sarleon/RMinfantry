@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/media/nao/KINGSTON/roboVS/roboVS/Driver_DBUS.c" "/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles/roboVS.dir/Driver_DBUS.c.o"
+  "/Users/nao/Downloads/code/RMinfantry/Driver_DBUS.c" "/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles/roboVS.dir/Driver_DBUS.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/nao/下载/clion-2016.3.2/cliom/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/nao/下载/clion-2016.3.2/cliom/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/nao/KINGSTON/roboVS/roboVS
+CMAKE_SOURCE_DIR = /Users/nao/Downloads/code/RMinfantry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/nao/Downloads/code/RMinfantry/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/roboVS.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug
 CMakeFiles/roboVS.dir/all:
 	$(MAKE) -f CMakeFiles/roboVS.dir/build.make CMakeFiles/roboVS.dir/depend
 	$(MAKE) -f CMakeFiles/roboVS.dir/build.make CMakeFiles/roboVS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target roboVS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target roboVS"
 .PHONY : CMakeFiles/roboVS.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/roboVS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roboVS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roboVS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nao/KINGSTON/roboVS/roboVS/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nao/Downloads/code/RMinfantry/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/roboVS.dir/rule
 
 # Convenience name for target.
