@@ -237,7 +237,7 @@ uint32_t ulNewBASEPRI = configMAX_SYSCALL_INTERRUPT_PRIORITY;
 		isb
 	}*/
 	asm("msr basepri, ulNewBASEPRI;");
-	asm("dsb;");
+	asm("mcr   p15,0,%[t],c7,c10,4\n" :: [t] "r" (0) : "memory");
 	asm("isb");
 }
 /*-----------------------------------------------------------*/
@@ -256,7 +256,7 @@ uint32_t ulReturn, ulNewBASEPRI = configMAX_SYSCALL_INTERRUPT_PRIORITY;
 	}*/
 	asm("mrs ulReturn, basepri;");
 	asm("msr basepri, ulNewBASEPRI;");
-	asm("dsb;");
+	asm("mcr   p15,0,%[t],c7,c10,4\n" :: [t] "r" (0) : "memory");
 	asm("isb");
 
 	return ulReturn;
