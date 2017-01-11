@@ -381,7 +381,7 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE void __ISB(void)
  */
 __attribute__( ( always_inline ) ) inline void  __DSB(void)
 {
-  __ASM volatile ("dsb");
+  __ASM volatile ("mcr   p15,0,%[t],c7,c10,4\n" :: [t] "r" (0) : "memory");
 }
 
 
