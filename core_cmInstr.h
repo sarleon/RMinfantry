@@ -396,6 +396,7 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE void __DMB(void)
 }
 
 
+
 /** \brief  Reverse byte order (32 bit)
 
     This function reverses the byte order in integer value.
